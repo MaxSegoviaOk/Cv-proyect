@@ -169,7 +169,16 @@ li{
     margin-top: 20px;
 } 
 
-footer{
+#autor{
+    font-family: 'Gloock', serif;
     text-align: center;
     padding-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color:crimson;
+}
+
+footer{
+    text-align: center;
+    
 }
