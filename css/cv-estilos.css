@@ -102,8 +102,22 @@ div.tercero {
 }
 
 .imagen{
+    display: block;
+    margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#perfil{
+    text-align: center;
 }
 
 .nombre{
@@ -122,19 +136,18 @@ div.imagen-texto{
 }
 
 h1{
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #e3e8eb;
-    color: darkmagenta;
-    margin-top: 0px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #131313;
+    color:white;
     margin-bottom: 0px;
 }
 
 h2{
     font-family: 'Allerta Stencil', sans-serif;
     font-weight: bold;
-    text-shadow: 2px 2px 2px #e4ebf0;
-    color: blueviolet;
+    text-shadow: 2px 2px 2px #131313;
+    color: white;
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -166,7 +179,7 @@ li{
 
 .aptitudes{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 } 
 
 #autor{
@@ -180,5 +193,5 @@ li{
 
 footer{
     text-align: center;
-    
+
 }
